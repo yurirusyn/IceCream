@@ -4,4 +4,12 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
+@import './layout/hero-header';
+@import './layout/products.scss';
+@import './layout/about.scss';
+@import './layout/advantages.scss';
+@import './layout/gallery.scss';
+@import './layout/customer-reviews.scss';
+@import './layout/contacts.scss';
+@import './layout/footer.scss';
 @import './example';
