@@ -1,17 +1,21 @@
-.customer-reviews {
-    background-color: var(--bg-products);
-}
-
-// .container-customer-reviews {
-//     &
+// .customer-reviews {
+//     
 // }
+
+.container-customer-reviews {
+    background-color: var(--bg-carusel-color);
+}
 
 .customer-img {
     margin: 0 auto;
 }
 
-.customer-reviews-box {
-    background-color: var(--bg-carusel-color);
+// .customer-reviews-box {
+//     
+// }
+
+.customer-reviews-text {
+    background-color: --bg-text-carusel-color;
 }
 
 .customer-reviews-list {
