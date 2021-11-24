@@ -1,0 +1,40 @@
+// .customer-reviews {
+//     
+// }
+
+.container-customer-reviews {
+    background-color: var(--bg-carusel-color);
+}
+
+.customer-img {
+    margin: 0 auto;
+}
+
+// .customer-reviews-box {
+//     
+// }
+
+.customer-reviews-text {
+    background-color: --bg-text-carusel-color;
+}
+
+.customer-reviews-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 43px 50px 20px;
+    
+}
+
+.customer-reviews-item {
+    // position: absolute;
+    width: 4px;
+    height: 4px;
+    // left: 158px;
+    // top: 4945px;
+    background-color: #C7133E;
+    // background-color: var(--dots-color);
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
