@@ -23,11 +23,19 @@
   background: #ffffff;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  max-width: 220px;
-  max-height: 427px;
+  width: 220px;
+  height: 427px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and(min-width:767px) and (max-width: 1279px) {
+    height: 544px;
+  }
+  @media screen and(min-width:1279px) {
+    height: 572px;
+    width: 330px;
+    margin: 15px;
+  }
 }
 
 .contacts-span {
@@ -42,4 +50,14 @@
 
 .contacts-box_list {
   margin: 20px;
+}
+
+.contacts {
+  @media screen and(min-width:767px) and(max-width:1279px) {
+    display: flex;
+  }
+  @media screen and(min-width:1279px) {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
