@@ -39,6 +39,23 @@
 }
 
 .contacts-span {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.8;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  color: #ffffff;
+  width: 130px;
+  height: 16px;
   background: #c2e297;
   border-radius: 4px;
 }
@@ -46,18 +63,91 @@
 .contacts-span_box {
   background: #f0d1a5;
   border-radius: 4px;
+  width: 80px;
+  height: 16px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.8;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  color: #ffffff;
 }
 
 .contacts-box_list {
-  margin: 20px;
+  margin: 43px 20px;
+  @media screen and(min-width:767px) and(max-width:1279px) {
+    margin: 50px 30px;
+  }
 }
 
 .contacts {
+  display: flex;
+  flex-direction: column;
   @media screen and(min-width:767px) and(max-width:1279px) {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
   @media screen and(min-width:1279px) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
   }
+}
+
+.contacts-time {
+  color: var(--pretitle-text-color);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.contacts-text {
+  color: var(--black-text-color);
+  font-family: DM Sans;
+  font-weight: bold;
+  font-style: normal;
+
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.contacts-list_text {
+  color: var(--p-text-color);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.tel-contacts {
+  color: var(--p-text-color);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.mail-contacts {
+  color: var(--p-text-color);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
 }
