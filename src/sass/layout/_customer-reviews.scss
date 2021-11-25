@@ -1,8 +1,3 @@
-
-// .container-customer-reviews {
-//     background-color: var(--bg-carusel-color);
-// }
-
 .customer-img {
     margin: 0 auto;
 }
@@ -54,6 +49,7 @@
     margin-top: 18px;
 }
 
+// ------- ПОДЧЕРКИВАНИЕ ТЕКСТА --------
 
 .slider-text-wrapper {
 	background-color: #FAFAFA;
@@ -70,52 +66,11 @@
 	text-align: center;
 }
 
-// @media screen and (min-width: 480px) {
-// 	.container {
-// 		width: 480px;
-// 		margin: 0 auto;
-// 	}
-// }
-
-// @media screen and (min-width: 768px) {
-// 	.container {
-// 		width: 740px;
-// 	}
-	
-// 	.slider {
-// 		width: 620px;
-// 		margin: 0 auto;
-// 	}
-	
-// 	.slider-text-wrapper {
-// 		padding: 47px 60px 27px;
-// 	}
-	
-// 	.slider-text {
-// 		font-size: 14px;
-// 		line-height: 2.16;
-// 		letter-spacing: 0.04em;
-// 		padding: 0 24px;
-// 	}
-// }
-
-// @media screen and (min-width: 1200px) {
-// 	.container {
-// 		width: 1090px;
-// 	}
-	
-// 	.slider {
-// 		width: 926px;
-// 	}
-	
-
-	.slider-text {
-		font-size: 16px;
-		line-height: 1.86;
-		padding: 0 4px;
-	}
-
-
+.slider-text {
+    font-size: 16px;
+    line-height: 1.86;
+    padding: 0 4px;
+}
 
 // --------------  SWIPER  ---------------
 
@@ -128,8 +83,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -147,11 +100,3 @@
 .swiper-wrapper {
     padding-bottom: 45px;
 }
-
-// .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-// }
-
