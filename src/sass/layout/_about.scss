@@ -4,8 +4,6 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  // margin: 0 auto;
-  max-width: 1600px;
   flex-grow: 1;
   text-align: center;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -20,6 +18,11 @@
       background-image: url(../images/about-bg-desktop-2x.png);
     }
   }
+}
+.about__titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about__pre-title {
   font-family: 'Titan One';
@@ -40,8 +43,14 @@
   color: var(--accent-color);
   text-transform: uppercase;
   margin-bottom: 26px;
+  width: 200px;
+  @media screen and (min-width: 481px) {
+    width: 100%;
+  }
+
   @media screen and (min-width: 768px) {
     margin-bottom: 50px;
+    width: 100%;
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 55px;
@@ -124,6 +133,11 @@
   margin-top: 47px;
   margin-left: 40px;
   position: relative;
+  transition: background-color 250ms linear;
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
   @media screen and (min-width: 768px) {
     margin-top: 62px;
     margin-left: 0;
