@@ -2,7 +2,7 @@
 .section-products {
     padding-top: 120px;
     padding-bottom: 110px;
-     @media screen and (min-width: 1200px) {
+     @media screen and (min-width: 1280px) {
         padding-top: 135px;
         padding-bottom: 120px;
      }
@@ -15,7 +15,7 @@
         padding-top: 130px;
         padding-bottom: 35px;
      }
-     @media screen and (min-width: 1200px) {
+     @media screen and (min-width: 1280px) {
         padding-top: 125px;
         padding-bottom: 20px;
      }
@@ -28,7 +28,7 @@
         padding-top: 35px;
         padding-bottom: 140px;
      }
-     @media screen and (min-width: 1200px) {
+     @media screen and (min-width: 1280px) {
         padding-top: 20px;
         padding-bottom: 140px;
      }
@@ -46,7 +46,7 @@
         padding-top: 120px;
         padding-bottom: 60px;
      }
-     @media screen and (min-width: 1200px) {
+     @media screen and (min-width: 1280px) {
         padding-bottom: 65px;
      }
 }
@@ -54,8 +54,8 @@
 .section-contacts {
     padding-top: 40px;
     padding-bottom: 110px;
-    background-image: linear-gradient(to bottom , var(--bg-white-color) 5.7%, 
-    var(--bg-footer-color) 94.3% );
+    background-image: linear-gradient(to bottom , var(--bg-white-color) 19%, 
+    var(--bg-footer-color) 0% );
      @media screen and (min-width: 768px) {
         padding-top: 60px;
         padding-bottom: 80px;
