@@ -54,11 +54,13 @@
 .section-contacts {
     padding-top: 40px;
     padding-bottom: 110px;
-    background-image: linear-gradient(to bottom , var(--bg-white-color) 19%, 
+    background-image: linear-gradient(to bottom , var(--bg-white-color) 7%, 
     var(--bg-footer-color) 0% );
      @media screen and (min-width: 768px) {
         padding-top: 60px;
         padding-bottom: 80px;
+        background-image: linear-gradient(to bottom , var(--bg-white-color) 19%, 
+    var(--bg-footer-color) 0% )
      }  
 
 }

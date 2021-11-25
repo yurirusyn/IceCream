@@ -6,6 +6,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--pretitle-text-color);
+    margin-bottom: 15px;
 }
 
 .products-title {
@@ -17,10 +18,26 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--accent-color);
+    margin-bottom: 30px;
 }
 
-.products-list {
+.products-button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-white-color);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
+
+.products-svg-strelka-image {
+    width: 15px;
+    height: 15px;
+    fill: var(--accent-color);
 }
 
 .products-item {
@@ -28,7 +45,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 600px;
 }
+
 
 .products-title-name {
     font-family: Titan One;
@@ -38,8 +58,9 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: black;
-    // var(--bg-white-color)
+    color: var(--bg-white-color);
+    
+    margin-bottom: 30px;
 }
 .products-text {
     font-family: DM Sans;
@@ -48,13 +69,42 @@
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-    color: black;
-    // var(--bg-white-color)
-    padding-right: 40px;
-    padding-left: 40px;
+    color: var(--bg-white-color);
     width: 200px;
+    margin: 0 auto 30px;
 }
+
+.products-svg {
+    text-align: center;
+}
+
 .products-svg-tochki {
     width: 26px;
     height: 6px;
+    margin-bottom: 30px;
+}
+
+.products-container-card {
+    background-color: var( --bg-icecream-color);
+    border-radius: 24px;
+    width: 100%;
+    padding-top: 160px;
+    height: 460px;
+    position: absolute;
+    bottom: 0;
+     &.ice-coffe {
+         background-color: var(--bg-icecoffee-color);
+     }
+     &.milkshakes {
+         background-color: var(--bg-milkshakes-color);
+     }
+}
+
+
+
+.products-image {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
