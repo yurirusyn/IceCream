@@ -1,0 +1,60 @@
+.products-title-text {
+    font-family: Titan One;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--pretitle-text-color);
+}
+
+.products-title {
+    font-family: Titan One;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.products-list {
+
+}
+
+.products-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-title-name {
+    font-family: Titan One;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: black;
+    // var(--bg-white-color)
+}
+.products-text {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: black;
+    // var(--bg-white-color)
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 200px;
+}
+.products-svg-tochki {
+    width: 26px;
+    height: 6px;
+}
