@@ -7,6 +7,16 @@
     text-transform: uppercase;
     color: var(--pretitle-text-color);
     margin-bottom: 15px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 30px;
+        line-height: 1.13;
+    }
 }
 
 .products-title {
@@ -19,12 +29,23 @@
     text-transform: uppercase;
     color: var(--accent-color);
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 1.14;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 58px;
+        line-height: 1.13;
+    }
 }
 
 .products-list {
     width: 100%;
     @media screen and (min-width: 768px) {
         display: flex;
+        justify-content: center;
     }
 }
 
@@ -64,6 +85,10 @@
             margin-right: 20px;
         }
      }
+     @media screen and (min-width: 1280px) {
+        width: calc(100% / 3 - 20px);
+        height: 735px;
+    }
 }
 
 
@@ -77,6 +102,11 @@
     text-transform: uppercase;
     color: var(--bg-white-color);
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1280px) {
+        font-size: 30px;
+        line-height: 1.13;
+    }
 }
 .products-text {
     font-family: DM Sans;
@@ -88,6 +118,20 @@
     color: var(--bg-white-color);
     width: 200px;
     margin: 0 auto 30px;
+
+    @media screen and (min-width: 768px) {
+        line-height: 1.7;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        width: 240px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto 60px;
+    }
 }
 
 .products-svg {
@@ -114,13 +158,18 @@
      &.milkshakes {
          background-color: var(--bg-milkshakes-color);
      }
+     @media screen and (min-width: 1280px) {
+        height: 535px;
+    }
 }
-
-
 
 .products-image {
     position: absolute;
     top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
+     
+    @media screen and (min-width: 1280px) {
+        top: -6%;
+     }
 }
