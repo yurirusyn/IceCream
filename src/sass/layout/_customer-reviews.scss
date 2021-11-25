@@ -17,6 +17,8 @@
         content: '';
         width: 54px;
         height: 40px;
+        top: 143px;
+        left: calc(100% / 4);
         background-image: url(../images/quotes.png);
         background-size: cover;
     }
@@ -68,50 +70,52 @@
 	text-align: center;
 }
 
-@media screen and (min-width: 480px) {
-	.container {
-		width: 480px;
-		margin: 0 auto;
-	}
-}
+// @media screen and (min-width: 480px) {
+// 	.container {
+// 		width: 480px;
+// 		margin: 0 auto;
+// 	}
+// }
 
-@media screen and (min-width: 768px) {
-	.container {
-		width: 740px;
-	}
+// @media screen and (min-width: 768px) {
+// 	.container {
+// 		width: 740px;
+// 	}
 	
-	.slider {
-		width: 620px;
-		margin: 0 auto;
-	}
+// 	.slider {
+// 		width: 620px;
+// 		margin: 0 auto;
+// 	}
 	
-	.slider-text-wrapper {
-		padding: 47px 60px 27px;
-	}
+// 	.slider-text-wrapper {
+// 		padding: 47px 60px 27px;
+// 	}
 	
-	.slider-text {
-		font-size: 14px;
-		line-height: 2.16;
-		letter-spacing: 0.04em;
-		padding: 0 24px;
-	}
-}
+// 	.slider-text {
+// 		font-size: 14px;
+// 		line-height: 2.16;
+// 		letter-spacing: 0.04em;
+// 		padding: 0 24px;
+// 	}
+// }
 
-@media screen and (min-width: 1200px) {
-	.container {
-		width: 1090px;
-	}
+// @media screen and (min-width: 1200px) {
+// 	.container {
+// 		width: 1090px;
+// 	}
 	
-	.slider {
-		width: 926px;
-	}
+// 	.slider {
+// 		width: 926px;
+// 	}
 	
+
 	.slider-text {
 		font-size: 16px;
 		line-height: 1.86;
 		padding: 0 4px;
 	}
 }
+
 
 // --------------  SWIPER  ---------------
 
@@ -150,3 +154,4 @@
 //     height: 100%;
 //     object-fit: cover;
 // }
+
