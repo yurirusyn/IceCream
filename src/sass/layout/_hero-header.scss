@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // z-index: 30;
 }
 .nav-list {
   @media screen and (max-width: 1279px) {
@@ -38,6 +39,10 @@
   line-height: 1.31;
   color: var(--white-text-color);
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .nav-link-active {
   color: var(--accent-color);
