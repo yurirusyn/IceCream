@@ -11,9 +11,19 @@
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #c9c4c4;
+    &::before {
+        display: inline-block;
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 40px;
+        background-image: url(../images/quotes.png);
+        background-size: cover;
+    }
 }
 
 .customer-reviews-text {
+    position: relative;
     font-weight: 500;
     font-size: 12px;
     line-height: 2.58;
