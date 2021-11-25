@@ -21,6 +21,13 @@
     margin-bottom: 30px;
 }
 
+.products-list {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
 .products-button {
     width: 40px;
     height: 40px;
@@ -47,6 +54,16 @@
     align-items: center;
     position: relative;
     height: 600px;
+     &:not(:last-child) {
+         margin-bottom: 20px;
+     }
+     @media screen and (min-width: 768px) {
+         width: 220px;
+         &:not(:last-child) {
+            margin-bottom: 0px;
+            margin-right: 20px;
+        }
+     }
 }
 
 
@@ -59,7 +76,6 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--bg-white-color);
-    
     margin-bottom: 30px;
 }
 .products-text {
