@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  margin: 0 auto;
+  // margin: 0 auto;
   max-width: 1600px;
   flex-grow: 1;
   text-align: center;
@@ -40,6 +40,32 @@
   color: var(--accent-color);
   text-transform: uppercase;
   margin-bottom: 26px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 55px;
+  }
+}
+.about__text-btn {
+  text-align: start;
+}
+
+.about__picture-text {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    .about__text-btn {
+      margin-top: 50px;
+      margin-left: 17px;
+      width: 50%;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .about__text-btn {
+      margin-top: 51px;
+      margin-left: 74px;
+    }
+  }
 }
 .about__text {
   font-family: 'DM Sans', sans-serif;
@@ -47,24 +73,46 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.58;
-  text-align: start;
   padding-left: 40px;
   padding-right: 40px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .about__text-one {
   color: var(--black-text-color);
-  margin-bottom: 47px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+  }
 }
 .about__text-two {
   color: var(--p-text-color);
   margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.78;
+    letter-spacing: 0.04em;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.92;
+  }
 }
 .about__btn {
   height: 44px;
   padding-left: 37px;
   padding-right: 56px;
   border: none;
-  border-radius: 50px;
+  border-radius: 22px;
   background-color: var(--bg-white-color);
   color: var(--accent-color);
   font-family: 'DM Sans', sans-serif;
@@ -74,11 +122,22 @@
   line-height: 1.28;
   text-align: center;
   margin-top: 47px;
-  &::after {
-    content: '>';
-    color: var(--accent-color);
-    margin-left: 13px;
-    font-size: 20px;
-    text-align: center;
+  margin-left: 40px;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    margin-top: 62px;
+    margin-left: 0;
   }
+  @media screen and (min-width: 1280px) {
+    margin-top: 45px;
+    margin-left: 0;
+  }
+}
+.about__btn-icon {
+  fill: none;
+  stroke: var(--accent-color);
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
 }
