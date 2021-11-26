@@ -10,9 +10,6 @@
   transition: transform 250ms ease-in-out;
   display: flex;
   flex-direction: column;
-  //   align-items: center;
-  //   padding-left: 20px;
-  //   padding-right: 20px;
 }
 .menu-container.is-open {
   transform: translateX(0);
