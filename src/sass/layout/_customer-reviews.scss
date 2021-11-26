@@ -100,3 +100,9 @@
 .swiper-wrapper {
     padding-bottom: 45px;
 }
+
+.swiper-pagination-bullet-active {
+    background-color: var(--bg-white-color);
+    background-image: url(../images/home.svg);
+    background-repeat: no-repeat;
+}
