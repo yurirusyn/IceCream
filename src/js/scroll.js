@@ -1,5 +1,4 @@
- type="text/javascript"
- $(document).ready(function(){
+$(document).ready(function(){
     $("#navigation").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
