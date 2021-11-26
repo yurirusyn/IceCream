@@ -105,4 +105,18 @@
     background-color: var(--bg-white-color);
     background-image: url(../images/home.svg);
     background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
 }
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--dots-color);
+}
+
+// .swiper-pagination-bullet-active {
+//     background-color: var(--bg-carusel-color);
+//     background-image: url(../images/home.svg);
+//     background-repeat: no-repeat;
+// }
