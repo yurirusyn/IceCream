@@ -31,7 +31,10 @@
   @media screen and(min-width:767px) and (max-width: 1279px) {
     width: 220px;
     height: 544px;
-    margin-right: 10px;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
   @media screen and(min-width:1279px) {
     height: 572px;
@@ -218,7 +221,7 @@
   cursor: pointer;
   &:hover,
   &:focus {
-    background: #ecebeb;
+    background: #ffa5ba;
   }
   @media screen and(min-width:767px) and(max-width:1279px) {
     margin-bottom: 0;
