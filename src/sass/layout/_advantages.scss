@@ -63,6 +63,9 @@
   width: 230px;
   margin-top: 18px;
   color: var(--black-text-color);
+  @media screen and (min-width: 321px) {
+    width: 100%;
+  }
   @media screen and (min-width: 768px) {
     width: 180px;
     font-size: 14px;
