@@ -104,6 +104,7 @@
 
 // ----------------------------HERO SECTION-----
 .section__hero {
+  position: relative;
   background-color: var(--bg-hero);
   padding-top: 110px;
   padding-bottom: 160px;
@@ -116,9 +117,9 @@
     padding-bottom: 56px;
   }
 }
-.hero__container {
-  position: relative;
-}
+// .hero__container {
+//   position: relative;
+// }
 .hero__title {
   font-family: 'Titan One';
   font-size: 26px;
@@ -322,27 +323,29 @@
 .bg__icecream {
   position: absolute;
   z-index: 2;
-  top: -93px;
+  // top: -93px;
+  bottom: 0;
   right: 10%;
   @media screen and (min-width: 768px) {
-    top: -22px;
+    // top: -22px;
     right: 232px;
   }
   @media screen and (min-width: 1280px) {
-    top: -47px;
+    // top: -47px;
     right: 353px;
   }
 }
 
 .bg-woman {
   position: absolute;
-  top: 181px;
+  // top: 181px;
+  bottom: 0;
   right: 20px;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
-    top: 278px;
+    // top: 278px;
     right: 0;
   }
 }
