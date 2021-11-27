@@ -112,7 +112,8 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: var(--dots-color);
+    // color: var(--dots-color);
+    display: none;
 }
 
 .swiper-pagination {

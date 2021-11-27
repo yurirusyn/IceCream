@@ -58,7 +58,7 @@
   border: none;
   padding: 0;
   width: 20px;
-  height: 12px;
+  height: 20px;
   z-index: 10;
   @media screen and (min-width: 1280px) {
     display: none;
@@ -67,8 +67,8 @@
 .humb-icon {
   fill: var(--accent-color);
   stroke: var(--accent-color);
-  width: 20px;
-  height: 12px;
+  width: 100%;
+  height: 100%;
 }
 .header__right {
   display: flex;
@@ -201,7 +201,7 @@
     min-width: 200px;
     font-size: 14px;
     line-height: 1.4;
-    margin-left: 180px;
+    margin-left: 157px;
   }
 }
 .hero__link_small {
@@ -227,7 +227,7 @@
     width: 26px;
     height: 26px;
     margin-top: 20px;
-    margin-left: 180px;
+    margin-left: 158px;
   }
 }
 .arrow-right {
@@ -306,13 +306,13 @@
 .ellipce {
   z-index: 0;
   position: fixed;
-  top: 75px;
+  top: 7px;
   right: 0;
 
   @media screen and (min-width: 768px) {
     position: absolute;
     top: -55px;
-    right: 140px;
+    right: 115px;
   }
   @media screen and (min-width: 1280px) {
     top: -110px;
@@ -322,27 +322,27 @@
 .bg__icecream {
   position: absolute;
   z-index: 2;
-  top: -96px;
+  top: -93px;
   right: 10%;
   @media screen and (min-width: 768px) {
-    top: -25px;
-    right: 247px;
+    top: -22px;
+    right: 232px;
   }
   @media screen and (min-width: 1280px) {
-    top: -51px;
+    top: -47px;
     right: 353px;
   }
 }
 
 .bg-woman {
   position: absolute;
-  top: 178px;
-  right: 34px;
+  top: 181px;
+  right: 20px;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
-    top: 274px;
+    top: 278px;
     right: 0;
   }
 }
@@ -350,12 +350,12 @@
 .bg-milk {
   position: absolute;
   top: 165px;
-  left: 34px;
+  left: 22px;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
     top: 266px;
-    left: 0;
+    left: -27px;
   }
 }
