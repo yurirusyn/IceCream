@@ -117,9 +117,9 @@
     padding-bottom: 56px;
   }
 }
-// .hero__container {
-//   position: relative;
-// }
+.hero__container {
+  position: relative;
+}
 .hero__title {
   font-family: 'Titan One';
   font-size: 26px;
@@ -312,40 +312,41 @@
   @media screen and (min-width: 768px) {
     position: absolute;
     top: -55px;
-    right: 160px;
+    right: 112px;
   }
   @media screen and (min-width: 1280px) {
     top: -110px;
-    right: 285px;
+    right: 175px;
   }
 }
 .bg__icecream {
   position: absolute;
   z-index: 2;
-  // top: -93px;
-  bottom: 0;
+  top: -96px;
+  // bottom: 0;
   right: 10%;
   @media screen and (min-width: 768px) {
-    // top: -22px;
-    right: 270px;
+    top: -25px;
+    right: 250px;
   }
   @media screen and (min-width: 1280px) {
-    // top: -47px;
-    right: 467px;
+    top: -51px;
+    right: 355px;
   }
 }
 
 .bg-woman {
   position: absolute;
-  // top: 181px;
-  bottom: 0;
-  right: 60px;
+  top: 178px;
+  // bottom: 0;
+  right: 0;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
-    // top: 278px;
-    right: 130px;
+    top: 274px;
+    // right: 130px;
+    right: 10px;
   }
 }
 
@@ -369,11 +370,11 @@
     display: block;
     position: absolute;
     top: 165px;
-    left: 58px;
+    left: 27px;
   }
   @media screen and (min-width: 1280px) {
     top: 266px;
-    // left: -27px;
-    left: 80px;
+    left: -30px;
+    // left: 0;
   }
 }
