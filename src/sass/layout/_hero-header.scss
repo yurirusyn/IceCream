@@ -322,31 +322,34 @@
 .bg__icecream {
   position: absolute;
   z-index: 2;
-  top: -93px;
-  // bottom: 0;
+  // top: -93px;
+  bottom: -160px;
   right: 10%;
   @media screen and (min-width: 768px) {
-    top: -22px;
+    // top: -22px;
     right: 250px;
+    bottom: -34px;
   }
   @media screen and (min-width: 1280px) {
-    top: -47px;
+    // top: -47px;
     right: 355px;
+    bottom: -56px;
   }
 }
 
 .bg-woman {
   position: absolute;
-  top: 181px;
-  // bottom: 0;
+  // top: 181px;
+  bottom: -34px;
   right: 0;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
-    top: 278px;
+    // top: 278px;
     // right: 130px;
-    right: 10px;
+    bottom: -56px;
+    right: 0px;
   }
 }
 
