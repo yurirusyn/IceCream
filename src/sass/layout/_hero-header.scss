@@ -322,29 +322,29 @@
 .bg__icecream {
   position: absolute;
   z-index: 2;
-  top: -96px;
+  top: -93px;
   // bottom: 0;
   right: 10%;
   @media screen and (min-width: 768px) {
-    top: -25px;
+    top: -22px;
     right: 250px;
   }
   @media screen and (min-width: 1280px) {
-    top: -50px;
+    top: -47px;
     right: 355px;
   }
 }
 
 .bg-woman {
   position: absolute;
-  top: 178px;
+  top: 181px;
   // bottom: 0;
   right: 0;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
-    top: 274px;
+    top: 278px;
     // right: 130px;
     right: 10px;
   }
