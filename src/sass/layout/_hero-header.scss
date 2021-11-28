@@ -309,15 +309,14 @@
   position: fixed;
   top: 7px;
   right: 0;
-
   @media screen and (min-width: 768px) {
     position: absolute;
     top: -55px;
-    right: 115px;
+    right: 160px;
   }
   @media screen and (min-width: 1280px) {
     top: -110px;
-    right: 155px;
+    right: 285px;
   }
 }
 .bg__icecream {
@@ -328,11 +327,11 @@
   right: 10%;
   @media screen and (min-width: 768px) {
     // top: -22px;
-    right: 232px;
+    right: 270px;
   }
   @media screen and (min-width: 1280px) {
     // top: -47px;
-    right: 353px;
+    right: 467px;
   }
 }
 
@@ -340,25 +339,41 @@
   position: absolute;
   // top: 181px;
   bottom: 0;
-  right: 20px;
+  right: 60px;
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1280px) {
     // top: 278px;
-    right: 0;
+    right: 130px;
   }
 }
 
+// .bg-milk {
+//   position: absolute;
+//   top: 165px;
+//   left: 22px;
+//   @media screen and (max-width: 767px) {
+//     display: none;
+//   }
+//   @media screen and (min-width: 1280px) {
+//     top: 266px;
+//     // left: -27px;
+//     left: 88;
+//   }
+// }
+
 .bg-milk {
-  position: absolute;
-  top: 165px;
-  left: 22px;
-  @media screen and (max-width: 767px) {
-    display: none;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 165px;
+    left: 58px;
   }
   @media screen and (min-width: 1280px) {
     top: 266px;
-    left: -27px;
+    // left: -27px;
+    left: 80px;
   }
 }
